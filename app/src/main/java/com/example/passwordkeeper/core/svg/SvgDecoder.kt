@@ -13,7 +13,6 @@ import java.io.InputStream
 
 class SvgDecoder : ResourceDecoder<InputStream?, SVG> {
     override fun handles(source: InputStream, options: Options): Boolean {
-        // TODO: Can we tell?
         return true
     }
 
@@ -29,7 +28,7 @@ class SvgDecoder : ResourceDecoder<InputStream?, SVG> {
             if (height != SIZE_ORIGINAL) {
                 svg.documentHeight = height.toFloat()
             }
-            SimpleResource<SVG>(svg)
+            SimpleResource(svg)
         } catch (ex: SVGParseException) {
             throw IOException("Cannot load SVG from stream", ex)
         }
