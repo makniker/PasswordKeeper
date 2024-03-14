@@ -1,4 +1,4 @@
-package com.example.passwordkeeper.core
+package com.example.passwordkeeper.core.svg
 
 import com.bumptech.glide.load.Options
 import com.bumptech.glide.load.ResourceDecoder

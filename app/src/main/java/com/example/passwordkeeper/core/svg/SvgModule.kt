@@ -1,4 +1,4 @@
-package com.example.passwordkeeper.core
+package com.example.passwordkeeper.core.svg
 
 import android.content.Context
 import android.graphics.drawable.PictureDrawable
