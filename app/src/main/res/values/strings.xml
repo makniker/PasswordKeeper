@@ -11,7 +11,7 @@
     <string name="password_auth_subtitle">Authenticate using your credentials</string>
     <string name="password_auth_description">This app uses your makes use of device password/pin or biometric to authenticate the dialog.</string>
     <string name="enter_name_of_page">Enter name of page</string>
-    <string name="enter_page_url">Enter page url</string>
+    <string name="enter_page_url">Enter page domain</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="add_new_page_title">Enter new page</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>

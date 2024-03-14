@@ -47,7 +47,7 @@ interface DataRepository {
 
         override suspend fun add(title: String, url: String, password: String): AddResponse {
             if (!cacheDataSource.checkIfExist(title, url)) {
-                return if (title.isNotEmpty() && url.isNotEmpty() && password.isNotEmpty()){
+                return if (title.isNotEmpty() || url.isNotEmpty() || password.isNotEmpty()){
                     encryptedPreferenceStorage.savePassword(title, password)
                     cacheDataSource.add(title, url)
                     AddResponse.Success

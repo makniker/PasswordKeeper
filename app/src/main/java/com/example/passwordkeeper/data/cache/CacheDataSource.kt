@@ -11,7 +11,7 @@ class CacheDataSource(private val dao: PageDao) {
 
     suspend fun getAll(): List<PageCache> = dao.getAll()
 
-    suspend fun checkIfExist(title: String, url: String): Boolean = dao.checkIfExist(title, url) < 1
+    suspend fun checkIfExist(title: String, url: String): Boolean = dao.checkIfExist(title, url) >= 1
 
     suspend fun getUrlAndNameById(pageId: Long): Pair<String, String> {
         val p = dao.getPageById(pageId)
