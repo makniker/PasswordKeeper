@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextViewStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+    <style name="TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">5dp</item>
+        <item name="android:textAppearance">@style/TextViewStyle</item>
+        <item name="boxStrokeWidthFocused">7dp</item>
+        <item name="boxStrokeColor">@color/purple_700</item>
+    </style>
+</resources>

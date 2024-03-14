@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PasswordKeeper</string>
+    <string name="your_web_pages">Your Web Pages</string>
+    <string name="add_new_page">Add new page</string>
+    <string name="secret_string">***********</string>
+    <string name="prompt_info_title">My App\'s Authentication</string>
+    <string name="prompt_info_subtitle">Please login to get access</string>
+    <string name="prompt_info_description">My App is using Android biometric authentication</string>
+    <string name="prompt_info_use_app_password">Use app password</string>
+    <string name="password_auth">Authentication</string>
+    <string name="password_auth_subtitle">Authenticate using your credentials</string>
+    <string name="password_auth_description">This app uses your makes use of device password/pin or biometric to authenticate the dialog.</string>
+    <string name="enter_name_of_page">Enter name of page</string>
+    <string name="enter_page_url">Enter page url</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="add_new_page_title">Enter new page</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="loading">loading..</string>
+    <string name="see_password">See password</string>
+</resources>
